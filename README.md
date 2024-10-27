@@ -37,6 +37,9 @@ The project is useful for learning how to:
         add_user.html
         list_users.html
     api.py
+    README.md
+    requirements.txt
+
 
 
 ## Requirements
@@ -50,14 +53,17 @@ The project is useful for learning how to:
 ```bash
 git clone https://github.com/saadjamiri/my_api_Flask.git
 cd my_api_Flask
-
+```
 ### Step  2 : Install the dependencies
 ```bash
 pip install -r requirements.txt
+```
 
-### Step 3 : Run the Flask app
+### Step 3: Run the Flask app
 ```bash
-python api.py 
+python api.py
+```
+
 
 ## Usage 
 
