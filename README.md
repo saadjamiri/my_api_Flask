@@ -27,6 +27,7 @@ The project is useful for learning how to:
 - Integrate an HTML front-end with Flask.
 
 ## Project Structure 
+
 /votre_projet
     /static
         my_first_app.png
@@ -71,13 +72,13 @@ python api.py
 
 In this phase, we will build a REST API that allows users to:
 
-  GET a list of users at /users.
-  POST new users to /users.
+  - GET a list of users at /users.
+  - POST new users to /users.
  
  **API Endpoints**
 
-  GET /users: Returns the list of users in JSON format.
-  POST /users: Adds a new user to the list (accepts a JSON body).
+  - GET /users: Returns the list of users in JSON format.
+  - POST /users: Adds a new user to the list (accepts a JSON body).
 
 Example of a POST request body: 
 {
@@ -91,30 +92,32 @@ Example of a POST request body:
 
 In this phase, we will create a web interface to interact with the user data:
 
-  A page to add a new user via a form (/add_user).
-  A page to display all users (/list_users).
+  - A page to add a new user via a form (/add_user).
+  - A page to display all users (/list_users).
 
  **Routes**
 
-  /add_user: Renders a form that allows users to add new entries.
- /list_users: Displays a list of all added users. 
+  - /add_user: Renders a form that allows users to add new entries.
+
+  - /list_users: Displays a list of all added users. 
 
  **Testing the API**
  You can test the API using Postman or Insomnia by following these steps:
 
-**Step 1**: Run the Flask app
+**Step 1**: **Run the Flask app**
 
 Start the server by running:
- python api.py
+ - python api.py
+
 The application will run on http://localhost:5000
 
-**Step 2**: Test the GET and POST routes
+**Step 2**: **Test the GET and POST routes**
 
-  GET /users: Retrieves a list of users. Example URL: http://localhost:5000/users
+  - GET /users: Retrieves a list of users. Example URL: http://localhost:5000/users
 
-  POST /users: Adds a new user by sending a JSON payload. Example URL: http://localhost:5000/users
+  - POST /users: Adds a new user by sending a JSON payload. Example URL: http://localhost:5000/users
 
-**Step 3**: Verify the results
+**Step 3**: **Verify the results**
 
 After the POST request, use the GET /users route to verify that the user was added successfully.
 
@@ -122,14 +125,11 @@ After the POST request, use the GET /users route to verify that the user was add
 
 Here are some features that could be added to improve the project:
 
-  Add user validation (e.g., non-empty names).
-  Implement user deletion and updating functionality.
-  Store users in a database (e.g., SQLite, ) instead of in-memory.
-  Add user authentication for the web interface and API.
+  - Add user validation (e.g., non-empty names).
+  - Implement user deletion and updating functionality.
+  - Store users in a database (e.g., SQLite, ) instead of in-memory.
+  - Add user authentication for the web interface and API.
 
-**License**
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
 **Author**
 
