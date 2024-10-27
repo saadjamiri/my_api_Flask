@@ -10,8 +10,6 @@
   - [Phase 2: Web Application](#phase-2-web-application)
 - [Testing the API](#testing-the-api)
 - [Future Enhancements](#future-enhancements)
-- [Screenshots](#screenshots)
-- [License](#license)
 - [Author](#author)
 
 ## Introduction
@@ -101,7 +99,7 @@ In this phase, we will create a web interface to interact with the user data:
 
   - /list_users: Displays a list of all added users. 
 
- **Testing the API**
+## Testing the API
  You can test the API using Postman or Insomnia by following these steps:
 
 **Step 1**: **Run the Flask app**
@@ -121,7 +119,7 @@ The application will run on http://localhost:5000
 
 After the POST request, use the GET /users route to verify that the user was added successfully.
 
-**Future Enhancements**
+## Future Enhancements
 
 Here are some features that could be added to improve the project:
 
@@ -131,7 +129,7 @@ Here are some features that could be added to improve the project:
   - Add user authentication for the web interface and API.
 
 
-**Author**
+## Author
 
 Developed by saadjamiri. For any questions, please contact saad1.jamiri@gamil.com.
 
