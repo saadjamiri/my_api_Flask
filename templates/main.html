@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des utilisateurs</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='my_first_app.png') }}" alt="Logo">
+    </header>
+    <nav>
+        <a href="{{ url_for('add_user_page') }}">Ajouter un utilisateur</a>
+        <a href="{{ url_for('list_users_page') }}">Afficher la liste des utilisateurs</a>
+    </nav>
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>
